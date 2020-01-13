@@ -1,0 +1,47 @@
+set_attack_value(AT_STEAM_CLOUD, AG_CATEGORY, 3);
+
+set_attack_value(AT_STEAM_CLOUD, AG_SPRITE, sprite_get("steam_cloud"));
+
+set_attack_value(AT_STEAM_CLOUD, AG_HURTBOX_SPRITE, sprite_get("steam_cloud_hurt"));
+
+set_attack_value(AT_STEAM_CLOUD, AG_NUM_WINDOWS, 1);
+set_num_hitboxes(AT_STEAM_CLOUD, 1);
+//ERROR_NO_SETTER_FOUND(AT_STEAM_CLOUD, NUM_UNIQUE_HITBOXES, 1);
+//set_hitbox_value(AT_STEAM_CLOUD, 1, NUM, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_PARENT_HITBOX, 1);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_WINDOW, 1);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_WINDOW_CREATION_FRAME, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_LIFETIME, 2);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_BASE_KNOCKBACK, 2);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_KNOCKBACK_SCALING, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_ANGLE, 90);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_ANGLE_FLIPPER, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_DAMAGE, 1);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_WIDTH, 16);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_HEIGHT, 16);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_HITBOX_X, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_HITBOX_Y, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_EFFECT, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_SDI_MULTIPLIER, 2.50);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_HITSTUN_MULTIPLIER, 0.50);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_TECHABLE, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_PRIORITY, 1);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_BASE_HITPAUSE, 3);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_HITPAUSE_SCALING, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_EXTRA_HITPAUSE, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_VISUAL_EFFECT, 144);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_VISUAL_EFFECT_X_OFFSET, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_VISUAL_EFFECT_Y_OFFSET, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_HIT_SFX, asset_get("sfx_ell_steam_hit"));
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_EXTRA_CAMERA_SHAKE, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_IGNORES_PROJECTILES, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_HIT_LOCKOUT, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_EXTENDED_PARRY_STUN, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_HITBOX_GROUP, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_FORCE_FLINCH, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_SHAPE, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_PROJECTILE_MASK, 1);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_PROJECTILE_HSPEED, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_PROJECTILE_VSPEED, 0);
+set_hitbox_value(AT_STEAM_CLOUD, 1, HG_PROJECTILE_GRAVITY, 0);
+//ERROR_NO_SETTER_FOUND(AT_STEAM_CLOUD, PROJECTILE_LIFETIME, 2);
